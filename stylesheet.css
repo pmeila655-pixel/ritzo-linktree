@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    url("kitchen.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-img {
+    width :20px
+}
+
+.container {
+  background: #ffffff;
+  width: 100%;
+  max-width: 380px;
+  padding: 30px 20px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 25%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.bio {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.links a {
+  display: block;
+  text-decoration: none;
+  background: #1f4037;
+  color: white;
+  padding: 14px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.links a:hover {
+  background: #99f2c8;
+  color: #1f4037;
+  transform: scale(1.03);
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #9b9797;
+}
